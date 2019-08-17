@@ -10,9 +10,9 @@ npm run build
 cd docs/.vuepress/dist
 
 # 下面这行是官网没有的，如果是多人开发项目，务必执行此命令
-git pull https://github.com/ACoderNHC/vuepress.git master 
-git add -A
+# git pull https://github.com/ACoderNHC/vuepress.git master 
+git add .
 git commit -m 'deploy'
-git push -f https://github.com/ACoderNHC/vuepress.git master
+git push -f https://github.com/ACoderNHC/vuepress.git master:vuepress
 
 cd -
